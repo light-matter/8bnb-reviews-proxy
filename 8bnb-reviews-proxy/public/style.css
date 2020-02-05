@@ -1,0 +1,31 @@
+body {
+    width: 850px !important;
+}
+
+.main-description {
+    width: 445px;
+    display: inline-block;
+    position: relative;
+    top: -340px;
+    margin-right: 25px;
+}
+
+#reservation {
+    display: inline-block;
+}
+
+#calendar {
+    width: 400px;
+}
+
+.overallComponent {
+    position: relative !important;
+    left: -163px !important;
+    top: -313px !important;
+}
+
+#reviews {
+    position: relative;
+    top: -274px;
+    left: -67px;
+}
