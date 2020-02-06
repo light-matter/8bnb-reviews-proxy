@@ -1,5 +1,29 @@
 body {
     width: 850px !important;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#top-image {
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+#side-image {
+    position: relative;
+    top: 400px;
+    left: 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 0px;
+    left: -50px;
+    position: relative;
 }
 
 .main-description {
@@ -12,20 +36,53 @@ body {
 
 #reservation {
     display: inline-block;
-}
-
-#calendar {
-    width: 400px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 30px;
 }
 
 .overallComponent {
-    position: relative !important;
-    left: -163px !important;
-    top: -313px !important;
+    width: 617px !important;
+    position: relative;
+    bottom: -338px;
+    right: -4px;
+}
+
+.calendarDiv {
+    /* width: 269px; */
+}
+
+.dateButton {
+    width: 39px;
+    height: 39px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    padding: 0px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.day {
+    width: 35px !important;
+}
+
+.sidebar {
+    width: 300px;
+    display: inline-block;
+    padding-top: 400px;
+}
+
+.banner {
+    height: 300px;
+    width: 1200px;
 }
 
 #reviews {
     position: relative;
-    top: -274px;
-    left: -67px;
+    top: 336px;
+}
+
+footer {
+    position: absolute;
+    bottom: -3231px;
 }
