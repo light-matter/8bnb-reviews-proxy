@@ -8,7 +8,7 @@
     "node": ">=6.13.0"
   },
   "scripts": {
-    "start": "nodemon ./server/index.js"
+    "start": "node ./server/index.js"
   },
   "dependencies": {
     "axios": "^0.19.2",

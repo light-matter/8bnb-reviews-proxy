@@ -4,7 +4,7 @@ const morgan = require('morgan');
 const axios = require('axios');
 const request = require('request');
 const app = express();
-const port = 8080;
+const port = 3000;
 
 // Middleware
 app.use(morgan('dev')); // for logging http requests to the terminal
@@ -15,7 +15,7 @@ app.use('/', express.static(path.join(__dirname, '../public'))); // for serving 
 
 // Proxy requests to modules
 const reservationModuleUrl = 'http://ec2-18-221-158-53.us-east-2.compute.amazonaws.com';
-const reviewsModuleUrl = 'http://ec2-18-216-209-189.us-east-2.compute.amazonaws.com:3000'; // add routes
+const reviewsModuleUrl = 'http://ec2-18-224-18-111.us-east-2.compute.amazonaws.com:3003'; // add routes
 const calendarModuleUrl = 'http://ec2-54-153-109-129.us-west-1.compute.amazonaws.com:3000'; // add routes
 const similarHomesModuleUrl = 'http://ec2-54-183-237-192.us-west-1.compute.amazonaws.com:3001'; // change and add routes
 
