@@ -4,6 +4,10 @@ body {
     display: flex;
     justify-content: space-evenly;
 }
+#root {
+    position: sticky;
+    top: 30px;
+}
 
 #top-image {
     width: 100%;
@@ -46,6 +50,7 @@ body {
     position: relative;
     bottom: -338px;
     right: -4px;
+    top: 345px;
 }
 
 .calendarDiv {
