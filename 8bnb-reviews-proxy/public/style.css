@@ -67,6 +67,10 @@ body {
     font-weight: bold;
 }
 
+.PaginationArrow {
+    padding: 5px 0px 7px 0px !important;
+}
+
 .day {
     width: 35px !important;
 }
